@@ -30,7 +30,7 @@ password='" . $password . "'";
         $_SESSION['username'] = $username;
         header("location:./");
     } else {
-        header("location:login");
+        header("location:login.php");
     }
 } else {
 // this is impossible

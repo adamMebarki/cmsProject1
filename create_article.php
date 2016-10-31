@@ -33,6 +33,6 @@ articleAuthor) VALUES ('". $articleID ."', '" .$articleName."', '".$articleText.
     }
 //test
 } else {
-    header("location:login");
+    header("location:login.php");
 }
 ?>
