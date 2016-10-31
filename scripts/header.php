@@ -13,15 +13,15 @@ session_start();
     <nav>
         <ul>
             <li><a href="../home.php">Home Page</a></li>
-            <li><a href="blog">My Blog</a></li>
-            <li><a href="about">About Me</a></li>
-            <li><a href="contactus">Contact Me</a></li>
+            <li><a href="../blog.php">My Blog</a></li>
+            <li><a href="../about.php">About Me</a></li>
+            <li><a href="../contactus.php">Contact Me</a></li>
             <?
             if (isset($_SESSION['username'])) {
-                echo "<li><a href='createarticle'>Create Article</a></li>";
-                echo "<li><a href='logout'>Logout</a></li>";
+                echo "<li><a href='../create_article.php'>Create Article</a></li>";
+                echo "<li><a href='../logout.php'>Logout</a></li>";
             } else {
-                echo "<li><a href='login'>Login</a></li>";
+                echo "<li><a href='../login.php'>Login</a></li>";
             }
             ?>
         </ul>
