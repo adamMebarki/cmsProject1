@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: 1606149
- * Date: 31/10/2016
- * Time: 13:42
- */
+<footer>
+    <p>(c)2016 - Babbage Computing Systems</p>
+</footer>
+
+</body>
